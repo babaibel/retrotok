@@ -257,31 +257,31 @@
 	display: none;
 }
 
-// .top_panel_wrap,
-// .header_wrap_container,
-// .under_catalog_menu,
-// .slider-main-1 .slider-main-1-item .slider-main-1-item-wrap .slider-main-1-item-wrap-wrap,
-// .worakarea_wrap_container,
-// .tabs_block .tabsblock_bgn_wrapper,
-// .bg_footer .footer{
-// 	max-width: 1400px!important;
-// 	padding-left: 20px!important;
-// 	padding-right: 20px!important;
-// }
+/*.top_panel_wrap,*/
+/*.header_wrap_container,*/
+/*.under_catalog_menu,*/
+/*.slider-main-1 .slider-main-1-item .slider-main-1-item-wrap .slider-main-1-item-wrap-wrap,*/
+/*.worakarea_wrap_container,*/
+/*.tabs_block .tabsblock_bgn_wrapper,*/
+/*.bg_footer .footer{*/
+	/*max-width: 1400px!important;*/
+	/*padding-left: 20px!important;*/
+	/*padding-right: 20px!important;*/
+/*}*/
 
-// @media (min-width: 1280px){
-// 	.catalog-section.uni_parent_col .uni-33{
-// 		width: 25%;
-// 	}
-// }
+/*@media (min-width: 1280px){*/
+	/*.catalog-section.uni_parent_col .uni-33{*/
+		/*width: 25%;*/
+	/*}*/
+/*}*/
 
-// .catalog-section .element .image .image-wrapper .image-wrapper-wrapper{
-// 	padding: 0;
-// }
+/*.catalog-section .element .image .image-wrapper .image-wrapper-wrapper{*/
+	/*padding: 0;*/
+/*}*/
 
-// .catalog-section .element{
-// 	padding-top: 0;
-// }
+/*.catalog-section .element{*/
+	/*padding-top: 0;*/
+/*}*/
 
 .delivery__container{
 	margin-bottom: 25px;
@@ -304,11 +304,11 @@
 }
 p{
 	margin-bottom: 10px;
-	font-family: Arial, Helvetica;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .delivery-title{
 	font-size: 16pt;
-	font-family: Arial, Helvetica;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
 .center{
@@ -318,9 +318,7 @@ p{
 	color: #ee1d24;
 }
 
-.slider-main-1
-.slider-main-1-item
-.slider-main-1-item-link{
+.slider-main-1 .slider-main-1-item .slider-main-1-item-link{
 	height: 400px;
 }
 
@@ -412,7 +410,7 @@ p{
 	padding-right: 15px;
 	display: block;
 	height: 100%;
-	font-size: 0px;
+	font-size: 0;
 }
 
 .uni-panel-sort .count .values {
@@ -617,7 +615,7 @@ p{
 }
 
 .newarticle__img{
-	margin: 0px 0px 10px 20px;
+	margin: 0 0 10px 20px;
 	width: 400px;
 	box-shadow: -2px 3px 5px rgba(0,0,0,0.25);
 }
@@ -657,4 +655,8 @@ p{
 
 .information .properties .property .name{
 	color: #121212;
+}
+
+.class{
+	display: block;
 }
