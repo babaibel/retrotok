@@ -1,0 +1,1 @@
+<a href="https://vk.com/retrotok" target="_blank"><span class="icon-soc-vk"></span></a>

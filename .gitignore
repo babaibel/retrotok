@@ -1,0 +1,45 @@
+/.idea
+.idea
+/web.config
+/*web.config
+/*.log
+/*.sql
+.DS_Store
+# исключаем из репозитория текстовые файлы, но оставляем robots.txt
+/*.txt
+#!/robots.txt
+/sitemap*.xml
+/*.dt
+/*.tar.gz
+/*.gz
+/*.tar
+/*.zip
+/*.bak
+/*.old
+/*sftp-config.json
+/*~
+*/_*
+/_*
+/composer.*
+/.phpintel
+
+
+/report/*
+/.ftpconfig
+package.json
+gulpfile.js
+/node_modules
+
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+# или используйте папку /local, чтобы полностью исключить папку bitrix
+/bitrix/*
+# включаем папку components, но исключаем components/bitrix
+!/bitrix/components
+/bitrix/components/bitrix/
+# включаем папку php_interface и исключаем файл dbconn.php
+!/bitrix/php_interface/init.php
+# включаем папку шаблонов
+!/bitrix/templates/
+# исключаем служебные и ненужные папки проекта
+/upload
+
