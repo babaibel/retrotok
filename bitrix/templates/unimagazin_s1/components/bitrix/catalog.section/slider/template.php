@@ -31,8 +31,8 @@ global $options;?>
 			<li id="<?=$this->GetEditAreaId($arElement['ID']);?>">
 				<div class="element">
 					<div class="wrapper hover_shadow">
-						<?if(!empty($arElement["DETAIL_PICTURE"]["SRC"])){
-							$file = CFile::ResizeImageGet($arElement["DETAIL_PICTURE"],array('width'=>300, 'height'=>300),"BX_RESIZE_IMAGE_PROPORTIONAL_ALT");
+						<?if(!empty($arElement["PREVIEW_PICTURE"]["SRC"])){
+							$file = CFile::ResizeImageGet($arElement["PREVIEW_PICTURE"]['ID'],array('width'=>300, 'height'=>300),"BX_RESIZE_IMAGE_PROPORTIONAL_ALT");
 									$src=$file['src'];
 								}else{
 									$src=SITE_TEMPLATE_PATH."/images/noimg/no-img.png";
