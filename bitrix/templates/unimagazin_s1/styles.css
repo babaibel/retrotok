@@ -620,6 +620,12 @@ p{
 	box-shadow: -2px 3px 5px rgba(0,0,0,0.25);
 }
 
+@media screen and (max-width: 480px){
+	.newarticle__img{
+		width: 100%;
+	}
+}
+
 .newarticle h2{
 	font-size: 22px;
 	margin-bottom: 20px;
