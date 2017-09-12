@@ -31,4 +31,7 @@
  	<?else:?>
 		<?echo $arResult["PREVIEW_TEXT"];?>
 	<?endif?>
+	<div class="staff_review">
+		<?=$arResult["PROPERTIES"]["company"]["VALUE"];?>
+	</div>
 </div>

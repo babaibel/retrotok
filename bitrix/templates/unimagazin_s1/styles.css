@@ -670,3 +670,9 @@ p{
 .one_news .prev_text{
 	max-height: 80px;
 }
+
+.bx_news_detail .staff_review{
+	font-sise: 16px;
+	margin-top: 15px;
+	font-weight: 500;
+}

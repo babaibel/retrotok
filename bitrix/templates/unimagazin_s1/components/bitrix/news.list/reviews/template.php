@@ -26,7 +26,6 @@ $this->setFrameMode(true);?>
 							</div>
 							<div class="staff_review">
 								<?=$arItem["PROPERTIES"]["company"]["VALUE"];?>
-								
 							</div>	
 							<div class="preview">
 								<?echo $arItem["PREVIEW_TEXT"];?>
