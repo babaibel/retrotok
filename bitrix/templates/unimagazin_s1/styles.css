@@ -666,3 +666,7 @@ p{
 .class{
 	display: block;
 }
+
+.one_news .prev_text{
+	max-height: 80px;
+}
