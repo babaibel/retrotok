@@ -12,11 +12,7 @@
 			<div class="footer">
 				<div class="bg_top">
 					<div class="bg_subscribe">
-						<?$APPLICATION->IncludeComponent("bitrix:subscribe.form", "main_page", Array(
-		
-						),
-						false
-						);?>
+						<?$APPLICATION->IncludeComponent("bitrix:subscribe.form", "main_page", Array(), false);?>
 					</div>
 					<div class="bg_phone">
 						<div class="phone">
@@ -125,5 +121,7 @@
                 h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn.bitrix24.ru/b4584313/crm/site_button/loader_2_3y2zll.js');
 	</script>
+
+<?$APPLICATION->IncludeComponent("jshox:meta_by_url", "", [], false);?>
 </body>
 </html>

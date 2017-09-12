@@ -183,14 +183,13 @@
 	$flSections = $fSections->Fetch();
 
 	if ($flSections['UF_SECTION_ANONSE']) {
-	    $sectionAnonse = $flSections['UF_SECTION_ANONSE'];
+		$sectionAnonse = $flSections['UF_SECTION_ANONSE'];
+		$APPLICATION->SetPageProperty('headertext', $sectionAnonse);
 	}
 ?>
-	<?if (!empty($sectionAnonse)):?>
-		<div class="in_sec_anonse">
-			<?=$sectionAnonse?>
-		</div>
-	<?endif;?>
+	<div class="in_sec_anonse">
+		<? $APPLICATION->ShowProperty('headertext') ?>
+	</div>
 
 
 	<?
@@ -457,15 +456,16 @@
 
 	<?
 	$resSection = CIBlockSection::GetByID($arResult["VARIABLES"]["SECTION_ID"]);
-	if($arrSection = $resSection->GetNext())
+	if($arrSection = $resSection->GetNext()) {
 		$sectionDescription = $arrSection['DESCRIPTION'];
-	if (!empty($sectionDescription)):?>
-		<div class="uni-indents-vertical indent-20"></div>
-		<div class="in_sec_desription">
-			<?=$sectionDescription?>
-		</div>
-		<div class="uni-indents-vertical indent-20"></div>
-	<?endif;?>
+		$APPLICATION->SetPageProperty("footertext", $sectionDescription);
+	}
+	?>
+	<div class="uni-indents-vertical indent-20"></div>
+	<div class="in_sec_desription">
+		<? $APPLICATION->ShowProperty('footertext');?>
+	</div>
+	<div class="uni-indents-vertical indent-20"></div>
 
 </div>
 <div class="clear"></div>
